@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    /* padding: 23px 0px; */
+    position: static;
+    top: 0;
+    background-color: #0c0c0cec;
+    z-index: 3;
+    border-bottom: 1px solid #626262;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1460px;
+    height: 100%;
+}
+
+.nav-logo {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 40px;
+    height: 100%;
+}
+
+.nav-item .mais-red {
+    color: var(--color-primary-2);
+}
+
+.nav-item a {
+    padding: 85px 0px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: var(--color-primary-2);
+}
+
+
+.numero-contact {
+    padding: 85px 0px;
+}
+
+.numero-contact a {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.numero-contact a .span-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-2);
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 5px var(--color-primary-2);
+}
+
+.numero-contact a h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
